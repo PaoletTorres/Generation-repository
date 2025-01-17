@@ -1,0 +1,44 @@
+
+
+h1#title{/* Especificidad es el primer metodo para decidir en css */
+    color:brown; 
+
+}
+
+h1#
+
+#title{
+    color: royalblue; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h1{
+    color: royalblue; 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+} 
+
+h1{
+    color: crimson; 
+    font-family: Arial, Helvetica, sans-serif;
+}  
+
+ 
+/* La cascada es un metodo que utiliza css para definir que estilos aplicará y aplica los últimos estilos declarados */ 
+
+.title{
+    color: seagreen;
+} 
+
+h1{/* selcetor de etiqueta */
+    background-color: black;
+} 
+
+body{ /* body es un contenedor  */
+    border: 5px solid slateblue; 
+    font-family: cursive;
+    color: deeppink;
+} 
+
+h1{
+    color: beige;
+}

@@ -1,0 +1,50 @@
+/* Todos los elementos de la página
+
+Tamaño de fuente: 16px
+Familia de fuentes:Arial, Helvetica, sans-serif;
+
+Todos los párrafos de la página 
+color: #555;
+
+Todos los párrafos contenidos en #primero 
+color: #369;
+
+Todos los enlaces de la página 
+color: #C30;
+
+Los elementos <em> contenidos en #primero 
+color: #0000BB;
+background-color: #FFFFCC;
+
+Todos los elementos <em> con la clase "especial" en toda la página 
+color: #FFFF00;
+background: #000000;
+
+Todos los elementos <span> contenidos en la clase "normal" 
+font-weight: bold; 
+*/
+
+* {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+p {
+    color: #555;
+}
+a {
+    color: #c30;
+}
+#primero p {
+    color: #369;
+}
+#primero em {
+    color: #0000bb;
+    background-color: #FFFFCC;
+}
+em.especial{
+    color: #FFFF00;
+    background: #000000;
+}
+.normal span{
+    font-weight: bold;
+}
